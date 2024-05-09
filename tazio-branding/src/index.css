@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Absolute-zero';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/AudiType-Normal_03.ttf) format('ttf');
+  }
+}
+
