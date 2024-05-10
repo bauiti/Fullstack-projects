@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily : {
-        body: ['Jaro'],
+        body: ['Exo 2'],
       }
 
       }

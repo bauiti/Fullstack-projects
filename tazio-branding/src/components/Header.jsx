@@ -1,41 +1,32 @@
 import Button from "./Button"
-import logo1 from '../assets/logo1.svg'
+import logo1 from "../assets/react.svg"
+
 
 function Header() {
   return (
-    <div className='bg-black w-auto h-16'>
-      <div className='flex justify-between'>
-        <div className='h-16 bg-white justify-center content-center w-24'>
-          <a>
-            <img src={logo1} width={190} height={40} alt="" />
-          </a>
+  <header className="py-6 px-10 fixed w-full flex justify-between items-center bg-black ">
     
-        </div>
-        <div className='h-16 bg-white'>
-          <h1>aguante boca</h1>
-
-        </div>
-        <div className='h-16 bg-white'> 
-          <nav>
-                <ul className='flex'>
-                  <li>boka</li>
-                  <li>boka</li>
-                  <li>boka</li>
-                  <li>boka</li>
-                  <li>boka</li>
-                  <li></li>
-                </ul>
-          </nav>
-
-        </div>
-        <div className="h-16 bg-white">
-          <h1>boca</h1>
-          
-        </div>
-
-      </div>
-      
+      <div>
+        <a href="">
+          <img src={logo1} height={40} width={40} alt=""/>
+           
+        </a>
     </div>
+
+      
+      
+          <nav>
+            <ul className="flex [&>li>a]:inline:block [&>li>a]:px-4 font-body [&>li>a]:text-white  ">
+    
+              <li><a href="" className="hover:text-amber-300 ease-in duration-300">Servicios</a></li>
+              <li><a href="" className="hover:text-amber-300 ease-in duration-100">Portfolio</a></li>
+              <li><a href="" className="hover:text-amber-300 ease-in duration-100">Contacto</a></li>
+             
+
+            </ul>
+          </nav>
+      
+  </header>
   )
 }
 
